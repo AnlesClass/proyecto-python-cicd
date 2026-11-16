@@ -7,7 +7,7 @@ def test_calcular_promedio():
     assert resultado == pytest.approx(16.33, abs=0.01)
  
 def test_estudiante_aprobado():
-    assert obtener_resultado(15) == "DESAPROBADO" 
+    assert obtener_resultado(15) == "APROBADO" 
  
 def test_estudiante_desaprobado():
     assert obtener_resultado(9) == "DESAPROBADO"
